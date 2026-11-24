@@ -20,8 +20,9 @@ the fuller, more awake answer in the coffee-against-tea argument.
 node main.ts   # Node 22.18+ (grader runs Node 22.23.4)
 ```
 
-Deterministic: no input is read, no time or randomness is used, every run
-writes the same single byte.
+Deterministic: no input is read, no time or randomness is used, so every
+run writes the same single byte — verified by running it twice and
+comparing the outputs byte for byte.
 
 ## Files
 
